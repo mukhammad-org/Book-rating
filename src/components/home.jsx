@@ -1,31 +1,25 @@
 function Cards(){
     return (
         <>
-<div className = "flex flex-row gap-3 ml-30">
-    <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
-
-    </div>
-     <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
-        
-    </div>
-     <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40" >
-        
-    </div>
-    </div>
-    <div className = "flex flex-row ml-30">
-    <div>
-
-    </div>
-     <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
-
-    </div>
-     <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
-        
-    </div>
-     <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40" >
-        
-    </div>
-   
+         <div> {/*  This is a main div*/}
+          <div className = " border-black border-2 rounded-2xl mt-3 flex justify-center items-center w-[60%]">
+            <div className = "flex flex-row gap-3 mt-2">
+             <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
+             </div>{/*  This is the first card */}
+             <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
+             </div>{/*  This is the second card */}
+             <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40" >
+             </div>{/*  This is the third card */}
+             </div>
+             <div className = "flex flex-row gap-3 mt-2">
+          <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
+            </div>{/*  This is the fourth card */}
+           <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40">
+             </div>{/*  This is the fifth card */}
+              <div className = "flex flex-row gap-1 border-black border-2 h-60 w-[10%] m-20 p-40" >
+                </div>{/*  This is the sixth card */}
+            </div>
+            </div>
     </div>
     </>
     )
@@ -35,8 +29,8 @@ function Cards(){
 function Home(){
  return (
  <>
-   <div className = "border-black border-2 h-dvh ml-20 mr-20 mt-3 rounded-2xl ">
-     <div>
+   <div>
+     <div className = "" >
         <Cards />
      </div>
    </div>
